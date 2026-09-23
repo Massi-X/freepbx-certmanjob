@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<module>
+	<rawname>certmanjob</rawname>
+	<name>Certificate Manager Job</name>
+	<version>1.0.0</version>
+	<category>Admin</category>
+	<menuitems>
+		<certmanjob>Certificate Management Job</certmanjob>
+	</menuitems>
+	<publisher>Massi-X</publisher>
+	<description>Fix certificate manager failed renewals using the Job class.</description>
+	<license>GPLv3+</license>
+	<licenselink>https://raw.githubusercontent.com/Massi-X/freepbx-certmanjob/refs/heads/main/LICENSE</licenselink>
+	<more-info>https://github.com/Massi-X/freepbx-certmanjob/?tab=readme-ov-file</more-info>
+	<updateurl>https://raw.githubusercontent.com/Massi-X/freepbx-certmanjob/refs/heads/main/current_version.json</updateurl>
+	<changelog>*1.0.0* Initial release</changelog>
+	<depends>
+		<version>14.0</version>
+		<module>framework</module>
+		<module>certman</module>
+	</depends>
+</module>
